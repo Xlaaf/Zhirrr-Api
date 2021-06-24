@@ -3,7 +3,7 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = '';
+var url = 'postgres://epchzdne:3b4qQblASBJDyzLgMH4UHNi-pv39u_xD@tai.db.elephantsql.com/epchzdne';
 try {
 if(url == '') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
